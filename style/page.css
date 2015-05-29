@@ -1,0 +1,384 @@
+/******************************************************************************/
+/* Page 1 (About)															  */
+/******************************************************************************/
+
+div.page_1 ul.social-list
+{
+	margin-top:10px;
+}
+
+	/**************************************************************************/
+	/* Page 1 (About)	/ Social List									      */
+	/**************************************************************************/
+
+	ul.social-list li
+	{
+		min-height:33px;
+		padding-left:55px;
+		margin-bottom:10px;
+		background-repeat:no-repeat;
+		background-position:center left;
+	}	
+
+		ul.social-list li.social-list-twitter 	{ background-image:url('../image/icon_twitter.png'); 	}		
+		ul.social-list li.social-list-facebook	{ background-image:url('../image/icon_facebook.png');	}	
+		ul.social-list li.social-list-vkontakte	{ background-image:url('../image/icon_vkontakte.png');	}	
+		ul.social-list li.social-list-instagram	{ background-image:url('../image/icon_instagram.png');	}	
+
+			ul.social-list li a,
+			ul.social-list li span
+			{
+				display:block;
+			}
+
+	/**************************************************************************/
+	/* Page 1 (About)	/ Slider											  */
+	/**************************************************************************/
+
+	#slider,
+	#slider-wrapper
+	{
+		width:260px;
+	}
+
+	#slider-wrapper
+	{
+		float:right;
+		height:320px;
+		background:url('../image/slider_preloader.gif') center center no-repeat;
+	}
+
+	#slider
+	{
+		height:290px;
+	}
+
+		#slider img
+		{
+			display:none;
+		}
+
+		div.nivo-controlNav
+		{
+			padding:0px;
+			text-align:center;
+		}
+
+		div.nivo-controlNav a.nivo-control
+		{
+			width:13px;
+			height:13px;
+			font-size:0px;
+			margin-left:5px;
+			text-align:center;
+			color:transparent;
+			display:inline-block;
+			background-repeat:no-repeat;
+			background-position:0px 0px;
+			background-image:url('../image/slider_navigation.png');
+			#margin-top:15px;
+		}
+
+		div.nivo-controlNav a.nivo-control:first-child
+		{
+			margin-left:0px;
+		}
+
+		div.nivo-controlNav a.nivo-control:hover,
+		div.nivo-controlNav a.nivo-control.active
+		{
+			text-decoration:none;
+			background-position:0px -13px;
+		}
+#bio .page-content {
+	position: relative;
+	padding-left: 70px;
+	padding-top: 20px;
+	font-family: "PT Sans";
+	font-size: 14px;
+	line-height: 20px;
+	color: #b5b5b5;
+}
+#bio .page-content:before {
+	content: ' ';
+	width: 35px;
+	height: 33px;
+	background-image: url("../image/icon-user.png");
+	position: absolute;
+	top:20px;
+	left: 20px;
+
+}
+#bio .page-content p {
+
+}
+.black {
+	color: #555555;
+}
+#accordion h4 a {
+	font-size: 24px;
+	color: #000000;
+	margin-bottom: 15px;
+	display: inline-block;
+	border-bottom: 1px dashed;
+	text-transform: uppercase;
+}
+#accordion h4 a:hover {
+	text-decoration: none;
+}
+#accordion h4 a:not(.collapsed) {
+	border-bottom-color: transparent;
+}
+.results-list {
+	list-style: none;
+}
+.results-list li {
+	margin-bottom: 20px;
+	color: #555555;
+}
+.results-list li .icon-arrow-right {
+	display: inline-block;
+	height: 17px;
+	width: 17px;
+	margin-right: 5px;
+	background-image: url("../image/icon-arrow-right.png");
+	vertical-align: text-bottom;
+}
+
+.gray-block {
+	width: 200px;
+	height: 180px;
+	display: inline-block;
+	margin-right: 50px;
+	background-color: #E5E5E5;
+	vertical-align: top;
+	padding-top: 20px;
+	padding-left: 23px;
+	margin-bottom: 40px;
+}
+.gray-block:last-child {
+	margin-right: 0;
+}
+.gray-block h2 {
+	text-transform: uppercase;
+	font-size: 24px;
+	line-height: 28px;
+}
+.gray-block .big-text {
+	font-size: 38px;
+	line-height: 46px;
+	color: #C6C6C6;
+	font-weight: bold;
+}
+.gray-block .big-text:first-child {
+	margin-top: 25px;
+}
+.gray-block .small {
+	line-height: 46px;
+	vertical-align: top;
+}
+.achivement-list {
+	list-style: none;
+}
+.achivement-list li {
+
+}
+
+/******************************************************************************/
+/* Page 2 (Services)														  */
+/******************************************************************************/
+
+ul.service-list { }
+
+	ul.service-list li
+	{
+		margin-bottom:12px;
+		background:url('../image/icon_feature.png') top left no-repeat;
+	}
+
+		ul.service-list li div
+		{
+			margin-left:50px;
+		}
+
+/******************************************************************************/
+/* Page 3 (Testimonials)													  */
+/******************************************************************************/
+
+ul.news-list { }
+
+	ul.news-list li
+	{
+		margin-top:15px;
+		padding-left:50px;
+		background:url('../image/icon_opinion.png') top left no-repeat;
+	}
+
+	ul.news-list li:first-child
+	{
+		margin-top:0px;
+	}
+
+/******************************************************************************/
+/* Page 4 (Resume)															  */
+/******************************************************************************/
+
+ul.resume-list { }
+
+	ul.resume-list li
+	{
+		margin-bottom:40px;
+	}
+
+		/**********************************************************************/
+		/* Page 4 (Resume) / Skill List										  */
+		/**********************************************************************/
+
+		ul.resume-list li ul.skill-list { }
+
+			ul.resume-list li ul.skill-list li
+			{
+				clear:both;
+				height:100%;
+				overflow:hidden;
+				margin-bottom:10px;
+			}
+
+				ul.resume-list li ul.skill-list li div.name,
+				ul.resume-list li ul.skill-list li div.value
+				{
+					display:block;
+				}
+
+				ul.resume-list li ul.skill-list li div.name
+				{
+					float:left;					
+				}
+
+				ul.resume-list li ul.skill-list li div.value
+				{
+					float:right;
+					height:13px;
+					width:150px;
+					margin-top:2px;
+					border-width:1px;
+					border-style:solid;	
+				}
+
+					ul.resume-list li ul.skill-list li div.value span
+					{
+						width:0;
+						height:13px;
+						display:block;
+					}
+
+					ul.resume-list li ul.skill-list li div.value.value10 span 	{ width:10%; 	}
+					ul.resume-list li ul.skill-list li div.value.value20 span 	{ width:20%; 	}
+					ul.resume-list li ul.skill-list li div.value.value30 span 	{ width:30%; 	}
+					ul.resume-list li ul.skill-list li div.value.value40 span 	{ width:40%; 	}
+					ul.resume-list li ul.skill-list li div.value.value50 span 	{ width:50%; 	}
+					ul.resume-list li ul.skill-list li div.value.value60 span 	{ width:60%; 	}
+					ul.resume-list li ul.skill-list li div.value.value70 span 	{ width:70%; 	}
+					ul.resume-list li ul.skill-list li div.value.value80 span 	{ width:80%; 	}
+					ul.resume-list li ul.skill-list li div.value.value90 span 	{ width:90%; 	}
+					ul.resume-list li ul.skill-list li div.value.value100 span 	{ width:100%; 	}
+
+		/**********************************************************************/
+		/* Page 4 (Resume) / Feature List									  */
+		/**********************************************************************/
+
+		ul.resume-list li ul.feature-list { }
+
+			ul.resume-list li ul.feature-list li
+			{
+				clear:both;
+				margin-bottom:0px;
+				padding-left:20px;
+				background:url('../image/icon_tick.png') left center no-repeat;
+			}
+
+		/**********************************************************************/
+		/* Page 4 (Resume) / Career List						    		  */
+		/**********************************************************************/
+
+		ul.resume-list li ul.career-list { }
+
+			ul.resume-list li ul.career-list li
+			{
+				margin-bottom:10px;
+			}
+
+				ul.resume-list li ul.career-list li span.period,
+				ul.resume-list li ul.career-list li span.qualification,
+				ul.resume-list li ul.career-list li span.job-type
+				{
+					display:block;
+				}
+
+				ul.resume-list li ul.career-list li p
+				{
+					margin-top:10px;
+				}		
+
+/******************************************************************************/
+/* Page 5 (Portfolio)														  */
+/******************************************************************************/							
+
+a.gallery-number
+{
+	float:left;
+	display:block;
+	margin-left:5px;
+	font-weight:bold;
+	padding:2px 5px 2px 5px;
+}
+
+a.gallery-number:hover
+{
+	text-decoration:none;
+}
+
+ul.portfolio-list
+{
+	margin-top:10px;
+}
+
+	ul.portfolio-list li
+	{
+		margin-bottom:20px;
+	}	
+
+	ul.portfolio-list li.left
+	{
+		float:left;
+	}
+
+	ul.portfolio-list li.right
+	{
+		float:right;
+	}
+
+	ul.portfolio-list li a
+	{
+		display:block;
+	}
+
+		ul.portfolio-list li img
+		{
+			display:block;
+		}
+
+/******************************************************************************/
+/* Page 6 (Contact)															  */
+/******************************************************************************/					
+
+div.contact-section
+{
+	margin-bottom:30px;
+}		
+
+#gmap
+{
+	width:100%;
+	height:120px;
+}
